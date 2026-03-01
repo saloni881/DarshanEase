@@ -1,10 +1,10 @@
-### Technical Architecture – DarshanEase
+#Technical Architecture – DarshanEase
 
 ## 1. Architectural Overview
 
 DarshanEase is designed as a three-tier full-stack MERN application that ensures modularity, scalability, and secure data management. The system separates concerns across presentation, application, and data layers.
 
-# Architecture Layers
+### Architecture Layers
 
 1. Presentation Layer – React.js (Frontend UI)
 2. Application Layer – Node.js + Express.js (Backend API & Business Logic)
@@ -30,7 +30,7 @@ The system follows:
 - Role-Based Access Control (RBAC)
 - Modular Backend Structure
 
-# MVC Mapping
+### MVC Mapping
 - Model → Mongoose Schemas (User, Temple, Slot, Booking, Donation)
 - View → React Components and Pages
 - Controller → Express Route Controllers handling business logic
@@ -39,7 +39,7 @@ The system follows:
 
 The frontend is built using React.js with a component-based architecture.
 
-# Key Characteristics
+### Key Characteristics
 
 - Reusable UI components
 - Page-level routing using React Router
@@ -63,11 +63,11 @@ The frontend handles validation, protected routes, and responsive layouts.
 
 The backend is built using Node.js and Express.js with a modular folder structure.
 
-# Request Processing Flow
+### Request Processing Flow
 
 Route → Controller → Business Logic → Model → Database
 
-# Core Modules
+### Core Modules
 - Authentication Module
 - Temple Management Module
 - Darshan Slot Management Module
@@ -81,7 +81,7 @@ Each module is independently structured with dedicated routes, controllers, and 
 
 DarshanEase implements JWT-based authentication and role-based authorization.
 
-## Authentication Flow
+### Authentication Flow
 
 1. User submits credentials.
 2. Password verified using bcrypt.
@@ -93,7 +93,7 @@ Header Format:
 
 Authorization: Bearer <JWT_TOKEN>
 
-# Role-Based Access Control
+### Role-Based Access Control
 
 Roles implemented:
 
@@ -112,7 +112,7 @@ This ensures secure access to sensitive operations.
 
 The application uses MongoDB with Mongoose ODM for schema modeling and relationship management.
 
-Collections
+### Collections
 
 - Users – Authentication and role information
 - Temples – Temple details and organizer reference
@@ -135,7 +135,7 @@ This improves query performance and scalability.
 
 The booking system is designed to ensure data consistency and prevent overbooking.
 
-# Booking Flow
+### Booking Flow
 
 1. User selects temple and slot.
 2. Backend validates:
@@ -176,7 +176,7 @@ DELETE /api/bookings/:id
 - Centralized error handling middleware
 - CORS configuration for controlled acces
 
-## 9. Scalability & Maintainability
+## 10. Scalability & Maintainability
 
 The architecture ensures:
 - Clear separation of concerns
