@@ -184,3 +184,7 @@ The architecture ensures:
 - Independent feature expansion
 - Stateless authentication for horizontal scaling
 - Optimized database queries through indexing
+
+## Entity Relationship Diagram
+
+![ER Diagram](docs/er-diagram.png)
