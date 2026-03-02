@@ -246,7 +246,8 @@ The architecture ensures:
 - Third-party payment gateway integration.
 - Real-time synchronization for slot availability.
 - Scalable API architecture for future integrations.
-#Roles & Responsibilities
+  
+# Roles & Responsibilities
 The system follows a Role-Based Access Control (RBAC) model with three primary roles:
 - Devotee (User)
 - Organizer
