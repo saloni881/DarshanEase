@@ -188,3 +188,61 @@ The architecture ensures:
 # Entity Relationship Diagram
 
 ![ER Diagram](docs/er-diagram.png)
+
+# Features
+## Authentication & User Management
+
+- Secure Devotee Registration and Login system.
+- Role-based authentication (Devotee, Organizer, Admin).
+-Secure access control for booking and management operations.
+- Profile management and booking history access.
+
+## Temple & Darshan Management
+### Temple Directory
+- Comprehensive listing of registered temples.
+- Detailed temple information including location and darshan offerings.
+- Structured temple categorization for easy browsing.
+### Darshan Slot Management
+- Dynamic creation and management of darshan slots.
+- Real-time slot availability tracking.
+- Configurable capacity limits per slot.
+- Automatic updates upon booking or cancellation.
+
+## Ticket Booking System
+- Seamless darshan slot selection.
+- Multi-devotee booking support.
+- Booking validation to prevent overbooking.
+- Instant booking confirmation with unique Booking ID.
+- Email-based confirmation system.
+
+## Secure Payment & Donations
+- Integrated secure payment gateway.
+- Support for online donations along with ticket booking.
+- Transaction validation and confirmation tracking.
+- Secure handling of payment details.
+
+## Dashboards & Role-Based Panels
+### Organizer Dashboard
+- Manage temple details and darshan slots.
+- Monitor booking statistics.
+- Issue and manage tickets.
+- Track slot capacity and availability.
+
+### Admin Dashboard
+- Manage users (Devotees, Organizers).
+- Approve and oversee temple registrations.
+- Monitor bookings and system activity.
+- Centralized administrative control panel.
+
+## Reporting & Analytics
+- Generate reports on:
+   - Total bookings
+   - Popular temples
+   - Slot occupancy rates
+   - Devotee participation trends
+- Data-driven insights for operational optimization.
+
+## External API Integration
+- Third-party payment gateway integration.
+- Real-time synchronization for slot availability.
+- Scalable API architecture for future integrations.
