@@ -194,7 +194,7 @@ The architecture ensures:
 
 - Secure Devotee Registration and Login system.
 - Role-based authentication (Devotee, Organizer, Admin).
--Secure access control for booking and management operations.
+- Secure access control for booking and management operations.
 - Profile management and booking history access.
 
 ## Temple & Darshan Management
@@ -246,3 +246,72 @@ The architecture ensures:
 - Third-party payment gateway integration.
 - Real-time synchronization for slot availability.
 - Scalable API architecture for future integrations.
+#Roles & Responsibilities
+The system follows a Role-Based Access Control (RBAC) model with three primary roles:
+- Devotee (User)
+- Organizer
+- Administrator
+Each role has clearly defined permissions and responsibilities to ensure secure and efficient system operations.
+
+## Devotee (User)
+The Devotee interacts with the platform to book darshan tickets and manage personal information.
+### Responsibilities
+- Registration & Authentication
+    - Create an account using basic credentials (Name, Email, Password).
+    - Secure login and logout functionality.
+- Profile Management
+    - Update personal details (Name, Email, Password).
+    - Manage account settings securely.
+
+- Darshan Booking
+   - Browse available temples and darshan slots.
+   - Book preferred slots based on availability.
+   - Receive electronic ticket with unique Booking ID.
+- Booking History
+   - View past and upcoming bookings.
+   - Cancel or modify bookings (if permitted).
+- Feedback & Ratings
+   - Submit ratings and feedback for darshan experience.
+
+## Organizer
+Temple Organizers manage temple-specific operations including slot scheduling and booking oversight.
+### Responsibilities
+- Profile Management
+   - Update personal and contact information.
+   - Secure authentication and logout access.
+- Darshan Slot Management
+   - Create, update, and delete darshan slots.
+   - Configure slot capacity and special entries.
+   - Monitor real-time slot availability.
+- Booking Management
+   - View and manage devotee bookings.
+   - Validate and assign darshan slots.
+   - Make necessary booking adjustments.
+- Notifications
+   - Receive booking alerts and updates.
+   - Communicate changes effectively to devotees.
+
+## Administrator
+The Administrator has full system-level control and oversees overall platform governance.
+
+### Responsibilities
+- System Management
+   - Manage system configurations and security settings.
+   - Oversee overall platform performance and reliability.
+- Devotee Management
+   - Create, update, or delete devotee accounts.
+   - Monitor feedback and ratings.
+   - Handle account-related issues.
+- Organizer Management
+   - Approve and manage temple organizer accounts.
+   - Grant or revoke access permissions.
+- Temple & Slot Oversight
+   - Supervise darshan slot scheduling.
+   - Ensure proper allocation of resources.
+   - Manage maintenance and operational workflows.
+- Event Management
+   - Create and manage temple events.
+   - Schedule, update, or remove special event slots.
+- Security & Compliance
+   - Enforce role-based access control.
+   - Ensure secure handling of user data.
