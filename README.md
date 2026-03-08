@@ -380,3 +380,6 @@ DarshanEase
 ├── server
 │   └── (Node.js / Express backend code)
 └── README.md
+
+# Folder Structure
+![folder_structure](docs/folder_structure.jpeg)
