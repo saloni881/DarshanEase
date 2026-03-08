@@ -83,10 +83,6 @@ DarshanEase implements JWT-based authentication and role-based authorization.
 4. Token returned to client. 
 5. Token attached in request header for protected routes.
 
-Header Format:
-
-Authorization: Bearer <JWT_TOKEN>
-
 ### Role-Based Access Control
 
 Roles implemented:
@@ -309,52 +305,7 @@ The Administrator has full system-level control and oversees overall platform go
 
  # User Flow – DarshanEase
 
-A[Start: User Opens DarshanEase App]
-
-B[Home Page]
-
-C{User Logged In?}
-
-D[Login / Register]
-
-E[User Dashboard / Profile]
-
-F[Select Temple]
-
-G[View Available Darshan Slots]
-
-H{Slot Available?}
-
-I[Select Time Slot]
-
-J[Confirm Ticket Booking]
-
-K[Generate E-Ticket]
-
-L[View Bookings / Booking History]
-
-M[End]
-
-A --> B
-B --> C
-
-C -- No --> D
-D --> E
-
-C -- Yes --> E
-
-E --> F
-F --> G
-
-G --> H
-
-H -- Yes --> I
-I --> J
-J --> K
-K --> L
-L --> M
-
-H -- No --> F
+![User Flow Diagram](docs/user flow-diagram.png)
 
 ## Flow Explanation
 
